@@ -1,8 +1,7 @@
 package com.test.senioradom.senioradom.dao;
 
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
+
 import javax.validation.constraints.NotNull;
 
 import javax.persistence.*;
@@ -11,6 +10,8 @@ import javax.persistence.*;
 @Data
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class Position {
 
     @Id
